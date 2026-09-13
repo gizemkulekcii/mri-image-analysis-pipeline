@@ -10,6 +10,6 @@ The image2segmentation function is taken from the following link:
 
 Vessel Distance Mapping (VDM): Combining vessel segmentation results with binary hippocampus masks to calculate distance from each hippocampal voxel to nearest blood vessel
 
-Statistics: Correlation and regression models
+Statistics(statistics_b04.R): Correlation and regression models
 
 
