@@ -1,4 +1,4 @@
-Preprocessing((preprocessing.m): Preprocessing done using MATLAB and SPM12. Preprocessing on T1-weighted images and ToF images to obtain skull stripped ToF images.
+Preprocessing((preprocessing.m): Preprocessing done using MATLAB and SPM12. Preprocessing on T1-weighted images and ToF images to obtain skull stripped ToF images. Performs tissue segmentation, brain masking, coregistration, and applying binary masks to anatomical.
 
 Vessel Segmentation (segmentation.py):
 
