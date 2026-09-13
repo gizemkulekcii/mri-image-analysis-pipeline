@@ -1,4 +1,5 @@
 preprocessing.m: This script processes MRI data for multiple subjects by performing tissue segmentation, brain masking, coregistration, and applying binary masks to anatomical.
+
 segmentation.py:
 You can find an information about the small vessel segmentation pipeline (Omelette) here :
 - https://cds.ismrm.org/protected/21MProceedings/PDFfiles/3745.html 
