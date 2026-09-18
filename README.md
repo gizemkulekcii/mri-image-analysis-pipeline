@@ -1,4 +1,5 @@
-Preprocessing(preprocessing.m): Preprocessing done using MATLAB and SPM12. Preprocessing on T1-weighted images and ToF images to obtain skull stripped ToF images. Performs tissue segmentation, brain masking, coregistration, and applying binary masks to anatomical.
+Preprocessing (preprocessing.m): 
+Preprocessing done using MATLAB and SPM12. Preprocessing on T1-weighted images and ToF images to obtain skull stripped ToF images. Performs tissue segmentation, brain masking, coregistration, and applying binary masks to anatomical.
 
 Vessel Segmentation (segmentation.py):
 
@@ -27,6 +28,5 @@ the small vessel segmentation pipeline "Omelette," written by Hendrik Mattern.
 
 3. Hippocampal Volumetry: Hippocampal volumes were pre-extracted using the Automated Segmentation of Hippocampal Subfields (ASHS) technique. Quality control was performed on these segmentations. Binary hippocampus masks were created from the automatic segmentations. Coregistration of T2-weighted and ToF images to the T1-weighted space was performed to ensure accuracy. Large segmentation errors were corrected, while minor errors were not addressed due to time constraints.
 
-4. Vessel Distance Mapping (VDM): VDM was performed by combining vessel segmentation results with binary hippocampus masks to calculate the distance from each hippocampal voxel to the nearest blood vessel.
-5. 
-6. Statistical Analysis: Statistical analyses, including correlation and regression models, were conducted to examine the relationships between hippocampal vessel distance, cognitive performance, hippocampal volume, and physical fitness. Demographic factors (age, sex, education) were included as covariates in all analyses, except hippocampal volume.
+4. Vessel Distance Mapping (VDM): VDM was performed by combining vessel segmentation results with binary hippocampus masks to calculate the distance from each hippocampal voxel to the nearest blood vessel. 
+5. Statistical Analysis: Statistical analyses, including correlation and regression models, were conducted to examine the relationships between hippocampal vessel distance, cognitive performance, hippocampal volume, and physical fitness. Demographic factors (age, sex, education) were included as covariates in all analyses, except hippocampal volume.
